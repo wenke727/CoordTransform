@@ -4,7 +4,7 @@ import ctypes
 
 from .coordTransform import bd09_to_wgs84, wgs84_to_bd09
 
-lib = ctypes.cdll.LoadLibrary(os.path.join(os.path.dirname(__file__), './baidu/baiduCoord.so'))
+lib = ctypes.cdll.LoadLibrary(os.path.join(os.path.dirname(__file__), './baiduCoord.so'))
 
 
 class coords_type(ctypes.Structure):
