@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning].
 
 - 小数点位置控制
 
+## [V1.1.1] - 2022-09-30
+
+- 百度坐标的转换，涉及到调用32位的 go 程序编译的 so 库，暂不支持 64 位的 python
+- 重新组织 和百度装备转换相关的代码
+
 ## [V1.1] - 2022-09-29
 
 - initial release
